@@ -17,19 +17,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: 'Rakibul Islam | Portfolio',
   description: 'A CSE student passionate about building software. Explore my projects, skills, and journey in software development.',
-  generator: 'v0.app',
+  generator: 'Next.js',
   keywords: ['Rakibul Islam', 'Portfolio', 'CSE', 'Developer', 'Software Engineer', 'Web Development'],
   authors: [{ name: 'Rakibul Islam' }],
   icons: {
     icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
       {
         url: '/icon.svg',
         type: 'image/svg+xml',
