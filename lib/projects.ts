@@ -112,6 +112,34 @@ export const projects: Project[] = [
         "Acts as a living document that is easy to update by pushing new commits"
       ]
     }
+  },
+  {
+    id: "grand-ayats",
+    title: "Grand Ayats — E-Commerce Platform",
+    description: "A full-stack e-commerce web application built for a real clothing business specializing in Panjabi. Features a customer-facing storefront with product browsing, shopping bag, and checkout, alongside a complete admin panel for managing orders, products, categories, customers, and business settings.",
+    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Supabase", "Radix UI", "Zustand", "React Hook Form", "Zod", "Shadcn/UI"],
+    repository: "https://github.com/Joy735985/E-commerce-v2",
+    images: [
+      "/projects/grand-ayats-1.png",
+      "/projects/grand-ayats-2.png",
+      "/projects/grand-ayats-3.png",
+      "/projects/grand-ayats-4.png",
+      "/projects/grand-ayats-5.png",
+      "/projects/grand-ayats-6.png"
+    ],
+    details: {
+      howItWasBuilt: "Built with Next.js and TypeScript for a type-safe, performant frontend. Supabase handles the backend — authentication, database, and real-time data. Zustand manages the client-side cart state. The admin panel is a fully separate protected route with its own dashboard, order management, product/category CRUD, customer list, order tracking, and configurable business settings like free shipping rules and product page highlights. UI components are built with Shadcn/UI and Radix UI for accessibility and consistency.",
+      howToUse: "Customers browse products by category (Embroidery Panjabi, Plain Panjabi, Eid Collection, New Arrivals), view individual product pages with size and color selection, add items to the shopping bag, and proceed to checkout. The admin logs into the protected /admin route, views the dashboard with revenue and order stats, manages orders by updating their status, adds or edits products with images and variants, and configures store settings such as free shipping thresholds.",
+      userFriendliness: "The storefront is clean and minimal with a focus on product photography. The shopping bag slides in as a drawer without leaving the page. The admin panel uses a sidebar layout with clear navigation between sections, making day-to-day store management straightforward even for non-technical users.",
+      benefits: [
+        "Provides a real business with a professional online storefront, replacing the need for manual order taking",
+        "Admin panel gives full control over inventory, orders, and customers from one place",
+        "Supabase backend means real-time order updates without page refreshes",
+        "Configurable free shipping rules and highlights allow the business owner to run promotions without touching code",
+        "Built with scalability in mind — easy to add new product categories, payment gateways, or delivery tracking",
+        "Type-safe codebase with TypeScript and Zod reduces bugs in production"
+      ]
+    }
   }
 ]
 
