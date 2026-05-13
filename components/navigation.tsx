@@ -9,8 +9,10 @@ import { cn } from "@/lib/utils"
 const navItems = [
   { name: "About", href: "#about" },
   { name: "Education", href: "#education" },
+  { name: "Research", href: "#research" },
   { name: "Skills", href: "#skills" },
   { name: "Projects", href: "#projects" },
+  { name: "Leadership", href: "#leadership" },
   { name: "Contact", href: "#contact" },
 ]
 
@@ -39,7 +41,7 @@ export function Navigation() {
         <div className="flex items-center justify-center h-16">
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center justify-center flex-1">
-            <div className="flex items-center gap-8">
+            <div className="flex items-center gap-6">
               {navItems.map((item) => (
                 <a
                   key={item.name}
@@ -51,7 +53,7 @@ export function Navigation() {
               ))}
             </div>
           </div>
-          
+
           {/* Theme Toggle - Right side for desktop */}
           <div className="hidden md:flex items-center absolute right-4 sm:right-6 lg:right-8">
             <ThemeToggle />

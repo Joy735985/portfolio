@@ -14,11 +14,14 @@ export function HeroSection() {
         <div className="flex flex-col items-center text-center max-w-4xl mx-auto">
           {/* About Text */}
           <p className="text-primary font-medium mb-2">Hello, I&apos;m</p>
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground mb-6 text-balance">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground mb-3 text-balance">
             Rakibul Islam
           </h1>
+          <p className="text-base sm:text-lg text-primary/80 font-medium mb-6">
+            Computer Science Graduate | Building Software, Chasing Research
+          </p>
           <p className="text-lg text-muted-foreground leading-relaxed mb-8 max-w-2xl">
-            A CSE student who spends way too much time thinking about how software works and then actually trying to build it. I am still learning, still making mistakes, and still showing up every day because that is the only way I know how to grow. I do not have all the answers yet but I have the curiosity to find them and the patience to keep going when things get hard. If you are looking for someone passionate, genuinely hungry, and always improving then you are in the right place.
+            Computer Science & Engineering graduate from East West University with hands-on experience in software engineering, full-stack web development, and IoT systems. Passionate about Artificial Intelligence, Machine Learning, and Cybersecurity. Developed real-world projects ranging from service marketplaces to e-commerce platforms. Seeking an MSc in Computer Science to advance research capabilities and contribute to cutting-edge technological solutions.
           </p>
 
           {/* Social Links */}
